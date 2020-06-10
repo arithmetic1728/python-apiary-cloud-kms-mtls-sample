@@ -20,10 +20,10 @@
 This application returns the list of key rings in global location. First fill in
 the project and adc_cert_key_folder value, then set the GOOGLE_API_USE_MTLS
 environment variable to one of the following values based on your need:
-(1) "Never": This means we always use regular api endpoint. Since this is the
+(1) "never": This means we always use regular api endpoint. Since this is the
 default value, there is no need to explicitly set it.
-(2) "Always": This means we always use the mutual TLS api endpoint.
-(3) "Auto": This means we auto switch to mutual TLS api endpoint, if the ADC
+(2) "always": This means we always use the mutual TLS api endpoint.
+(3) "auto": This means we auto switch to mutual TLS api endpoint, if the ADC
 client cert and key are detected.
 """
 import google.oauth2.credentials
